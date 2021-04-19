@@ -1,3 +1,7 @@
 #profileImg {
   transform: translateY(-46px);
 }
+
+.card {
+  margin-top: 25px;
+}

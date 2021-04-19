@@ -2,13 +2,14 @@ import React from 'react';
 import { Card, Image } from 'react-bootstrap';
 import tomImage from './../img/tom.png'
 
+
 function UserDisplay() {
   return(
   <>
-    <Card style={{ width: '18rem' }}>
+    <Card>
       <Card.Header style={{ height: '8rem' }}></Card.Header>
       <Card.Body>
-        <Card.Title><Image src={tomImage} style={{ height: '50px' }} id='profileImg' roundedCircle /> Tom from Myspace</Card.Title>
+        <Card.Title><Image src={tomImage} style={{ height: '50px' }} id='profileImg' roundedCircle /> Myspace Tom</Card.Title>
           <Card.Text>
             A bio snippet.
           </Card.Text>

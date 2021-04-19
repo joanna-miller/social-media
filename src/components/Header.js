@@ -4,7 +4,7 @@ import { Navbar,Nav,Form,FormControl,Button } from 'react-bootstrap';
 function Header(){
   return(
   <>
-  <Navbar bg="light" variant="light">
+  <Navbar id ='navbar' bg="light" variant="light">
     <Nav className="mr-auto">
       <Nav.Link href="#home">Home</Nav.Link>
       <Nav.Link href="#notifications">Notifications</Nav.Link>
